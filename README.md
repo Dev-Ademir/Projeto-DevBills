@@ -1,4 +1,6 @@
-# DevBills
+# Projeto DevBills
+
+![Capa do Projeto DevBills](.github/capa.png)
 
 App de controle financeiro pessoal.
 
