@@ -1,0 +1,33 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx watch src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.6",
+    "@types/node": "^26.1.2",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.3.0",
+    "@prisma/client": "6",
+    "dayjs": "^1.11.21",
+    "fastify": "^5.11.0",
+    "fastify-type-provider-zod": "^7.0.0",
+    "firebase": "^12.17.1",
+    "firebase-admin": "^14.2.0",
+    "lucide-react": "^1.28.0",
+    "mongodb": "^7.5.0",
+    "prisma": "6",
+    "zod": "^4.4.3"
+  }
+}
